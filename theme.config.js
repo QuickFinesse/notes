@@ -1,16 +1,16 @@
 export default {
-  github: 'https://github.com/shuding/nextra',
-  docsRepositoryBase: 'https://github.com/shuding/nextra/blob/master',
-  titleSuffix: ' – Nextra',
+  github: 'https://github.com/QuickFinesse/notes',
+  //   docsRepositoryBase: 'https://github.com/QuickFinesse/notes/tree/main',
+  //   titleSuffix: ' – Notes',
   logo: (
     <>
-      <span className="mr-2 font-extrabold hidden md:inline">Nextra</span>
+      <span className="mr-2 font-extrabold hidden md:inline">Homies Notes</span>
       <span className="text-gray-600 font-normal hidden md:inline">
-        The Next.js Static Site Generator
+        The Home of the Homies Notes
       </span>
     </>
   ),
-  defaultMenuCollapsed: true,
+  //   defaultMenuCollapsed: true,
   head: (
     <>
       <meta name="msapplication-TileColor" content="#ffffff" />
@@ -63,6 +63,6 @@ export default {
   nextLinks: true,
   footer: true,
   footerEditLink: 'Edit this page on GitHub',
-  footerText: <>MIT {new Date().getFullYear()} © Nextra.</>,
+  footerText: <>MIT {new Date().getFullYear()} © HomiesLounge.</>,
   unstable_faviconGlyph: '👋',
 }
